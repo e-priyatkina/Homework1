@@ -1,4 +1,5 @@
 
+
 public class Main {
     public static void main(String[] args) {
         var dog = 8.0;
@@ -59,5 +60,5 @@ public class Main {
         employees += 94;
         oneEmployee = total / employees;
         System.out.println ("Если в компании работает " + employees + " человека, то всего " + oneEmployee + " часа работы может быть поделено между сотрудниками");
-        }
     }
+}
