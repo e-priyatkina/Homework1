@@ -15,36 +15,55 @@ public class Main {
 
         System.out.println("Задача 2");
         for (int i = 0; i < arrOne.length; i++) {
-            System.out.print(arrOne[i] + " ");
+            if (i < arrOne.length - 1) {
+                System.out.print(arrOne[i] + ", ");
+            } else {
+                System.out.println(arrOne[i]);
+            }
         }
-        System.out.println();
 
         for (int i = 0; i < arrTwo.length; i++) {
-            System.out.print(arrTwo[i] + " ");
+            if (i < arrTwo.length - 1) {
+                System.out.print(arrTwo[i] + ", ");
+            } else {
+                System.out.println(arrTwo[i]);
+            }
+        }
+
+        for (int i = 0; i < arrThree.length; i++) {
+            if (i < arrThree.length - 1) {
+                System.out.print(arrThree[i] + ", ");
+            } else {
+                System.out.println(arrThree[i]);
+            }
         }
         System.out.println();
 
-        for (int i = 0; i < arrThree.length; i++) {
-            System.out.print(arrThree[i] + " ");
-        }
-        System.out.println();
-        System.out.println();
 
         System.out.println("Задача 3");
         for (int i = arrOne.length - 1; i >= 0; i--) {
-            System.out.print(arrOne[i] + " ");
+            if (i > 0) {
+                System.out.print(arrOne[i] + ", ");
+            } else {
+                System.out.println(arrOne[i]);
+            }
         }
-        System.out.println();
 
         for (int i = arrTwo.length - 1; i >= 0; i--) {
-            System.out.print(arrTwo[i] + " ");
+            if (i > 0) {
+                System.out.print(arrTwo[i] + ", ");
+            } else {
+                System.out.println(arrTwo[i]);
+            }
         }
-        System.out.println();
 
         for (int i = arrThree.length - 1; i >= 0; i--) {
-            System.out.print(arrThree[i] + " ");
+            if (i > 0) {
+                System.out.print(arrThree[i] + ", ");
+            } else {
+                System.out.println(arrThree[i]);
+            }
         }
-        System.out.println();
         System.out.println();
 
         System.out.println("Задача 4");
