@@ -6,6 +6,7 @@ public class Main {
         Book one = new Book("Voyna i mir", oneBook, 1867);
         Book two = new Book("Mumu", twoBook, 1854);
 
+        System.out.println(two.getYear());
         two.setYear(1855);
 
         System.out.println("Name: " + one.getName() + ", author: " + oneBook.getName() + " " + oneBook.getSurname() + ", year: " + one.getYear());
